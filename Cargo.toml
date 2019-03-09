@@ -1,0 +1,11 @@
+[package]
+name = "plox"
+version = "0.1.0"
+authors = ["Tim Overbay <tim.overbay@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.3.14"
+
+[package.metadata.bootimage]
+default-target = "x86_64-plox_os.json"
