@@ -36,7 +36,7 @@ We could use a config file for these flags, but I'm not sure how to do it in a c
 
 * Add a dependency to bootloader in Cargo.toml:
 ```
-# in Cago.toml
+# in Cargo.toml
 
 [dependencies]
 bootloader = "0.3.14"
@@ -48,6 +48,3 @@ bootloader = "0.3.14"
 If you're developing on a Windows machine, you can use the build.cmd:
 ```build boot``` for development
 ```build boot release``` for release
-
-git remote add origin https://github.com/toverbay/plox-os.git
-git push -u origin master
